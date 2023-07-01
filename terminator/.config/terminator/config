@@ -1,0 +1,19 @@
+[global_config]
+  title_transmit_bg_color = "#7eff18"
+  title_inactive_bg_color = "#ffffff"
+[keybindings]
+[profiles]
+  [[default]]
+    show_titlebar = false
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
